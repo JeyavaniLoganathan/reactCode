@@ -1,0 +1,28 @@
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url('../fonts/OpenSans-Regular.ttf'); 
+}
+
+.header {
+    padding: 7px;
+    text-align: center;
+    background: #1c056d;
+    color: white;
+    font-size: 15px;
+    border-color: #1c056d;
+}
+
+.footer {
+    padding: 5px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #1c056d;
+    color: white;
+    text-align: center;
+}
+
+.blueCls{
+    background-color: aqua !important;
+}

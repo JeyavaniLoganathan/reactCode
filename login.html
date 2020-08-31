@@ -1,0 +1,57 @@
+<head>
+    <title>BMS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="../08-06-2020/js/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="../08-06-2020/css/style.css" />    
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse header">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#" style="font-weight: bold;color: white; font-size: x-large;">BANK MANAGEMENT SYSTEM</a>
+            </div>            
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <h3 align="Center" style="font-weight: bold;">LOGIN PAGE</h3>
+                <div class="form" align="Center">
+                    <form class="login-form" name="loginForm" action="/Assessment/HTML5&CSS3/08-06-2020/MyForm.html" onsubmit="return validateLogin()" method="post">
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-3"></div>
+                            <div class="col-sm-3">
+                                <label for="userName">UserName</label>
+                            </div>
+                            <div class="col-sm-3">
+                                <input type="text" class="form-control" id="userName" name="userName" value="" placeholder="UserName" required>
+                            </div>
+                            <div class="col-sm-3"></div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-3"></div>
+                            <div class="col-sm-3">
+                                <label for="password">Password</label>
+                            </div>
+                            <div class="col-sm-3">
+                                <input type="password" class="form-control" id="password" name="password"value="" placeholder="Password" required>
+                            </div>
+                            <div class="col-sm-3"></div>
+                        </div><br>
+                        <input type="submit" class="btn btn-primary" value="LOGIN">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p align="right">rights@claimportal.com</p>
+    </div>
+</body>
