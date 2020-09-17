@@ -1,0 +1,45 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users":[
+    {
+      "userName":"Jeyavani",
+      "password":"admin"
+    }
+  ],
+  "claims": [
+    {
+      "emp_id" : "001",
+      "emp_name" : "ABC DEF" ,
+      "claim_number"  : "CN001" ,
+      "claim_type"  :  "Savings" ,
+      "claim_program" : "01" ,
+     " start_date" : "01-09-2020",
+      "end_date" : "01-09-2021"
+    },
+    {
+      "emp_id" : "002",
+      "emp_name" : "TUV XYZ" ,
+      "claim_number"  : "CN002" ,
+      "claim_type"  :  "Savings" ,
+      "claim_program" : "01" ,
+     " start_date" : "01-09-2020",
+      "end_date" : "01-09-2021"
+    }
+  ]
+}
